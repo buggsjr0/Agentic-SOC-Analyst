@@ -44,9 +44,10 @@ _**Project Build Journey**_
 This system was built in phases to confirm that each component worked independently to ensure that Agentic SOC Analyst was able to compile complete threat hunts
 
 | Phase | Goal | Key Learnings | 
-| ----- | ---- | ---- |
-|    1   | Setup & Auth | Azure DefaultAzureCredential & secure key management |
-| git diff | Show file differences that haven't been staged |
+| ----- | ----- | ----- |
+|  1  | Setup & Auth | Azure DefaultAzureCredential & secure key management |
+| ----- | ----- | ----- | 
+|  2 | Query Planning | OpenAI function calling, structured outputs
 | --- | --- |
 | git status | List all new or modified files |
 | git diff | Show file differences that haven't been staged |
