@@ -9,33 +9,33 @@ This project was built as a hands-on learning exercise: taking a working AI SOC 
 _**Why I built This Bot**_
 
 -Understand how LLMs interpret natural language hunting queries <br>
--Master OpenAI function calling for structured query planning
--Learn secure integration with Azure Log Analytics using KQL
--Implement MITRE ATT&CK mapping and IOC extraction
--Build professional-grade prompt engineering for threat detection
--Practice secure development (secrets management, input validation, guardrails)
+-Master OpenAI function calling for structured query planning <br>
+-Learn secure integration with Azure Log Analytics using KQL <br>
+-Implement MITRE ATT&CK mapping and IOC extraction <br>
+-Build professional-grade prompt engineering for threat detection <br>
+-Practice secure development (secrets management, input validation, guardrails) <br>
 
 ***
 
 _**How it Works**_
 
--User Input (Natural Language)
--GPT decides: Table + Fields + Filters (via Function Calling)
--Query Azure Log Analytics Workspace (Real MDE & Azure AD logs)
--Returned logs → GPT Threat Analysis Engine
--Structured Findings: Title, MITRE Mapping, Confidence, IOCs, Recommendations
--Color-coded display + Saved to _threats.jsonl
+-User Input (Natural Language) <br>
+-GPT decides: Table + Fields + Filters (via Function Calling) <br>
+-Query Azure Log Analytics Workspace (Real MDE & Azure AD logs) <br>
+-Returned logs → GPT Threat Analysis Engine <br>
+-Structured Findings: Title, MITRE Mapping, Confidence, IOCs, Recommendations <br>
+-Color-coded display + Saved to _threats.jsonl <br>
 
 ***
 
 _**Key Features**_
 
--Natural language threat hunting "Check for brute force on Emp000555"
--Intelligent table selection with OpeAI function calling
--Real-time querying of Defender for Endpoint and Logs
--Automated MITRE ATT&CK technique mapping 
--Confidence scoring and acctionable reccomendations
--Secure design: API keys never committed.
+-Natural language threat hunting "Check for brute force on Emp000555" <br>
+-Intelligent table selection with OpeAI function calling <br>
+-Real-time querying of Defender for Endpoint and Logs <br>
+-Automated MITRE ATT&CK technique mapping <br>
+-Confidence scoring and acctionable reccomendations <br>
+-Secure design: API keys never committed. <br>
 
 ***
 
@@ -43,13 +43,16 @@ _**Project Build Journey**_
 
 This system was built in phases to confirm that each component worked independently to ensure that Agentic SOC Analyst was able to compile complete threat hunts
 
-Phase	Goal	Key Learnings
-1	Setup & Auth	Azure DefaultAzureCredential, secure key management
+|Phase|	|Goal|	|Key Learnings|
+1	|Setup & Auth|	|Azure DefaultAzureCredential & secure key management|
 2	Query Planning	OpenAI function calling, structured outputs
 3	Log Retrieval	KQL construction, pandas for data handling
 4	Threat Analysis	Prompt engineering, JSON schema enforcement
 5	Output & Logging	Colorama formatting, JSONL append mode
 6	Guardrails & Polish	Validation, model selection, error handling, token estimation, rate limit awareness
+
+
+__**Demo Example**__
 
 
 
