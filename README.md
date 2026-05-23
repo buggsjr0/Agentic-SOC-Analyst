@@ -46,19 +46,12 @@ This system was built in phases to confirm that each component worked independen
 | Phase | Goal | Key Learnings | 
 | ----- | ----- | ----- |
 |  1  | Setup & Auth | Azure DefaultAzureCredential & secure key management |
-| ----- | ----- | ----- | 
-|  2 | Query Planning | OpenAI function calling, structured outputs
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| 2 | Query Planning | OpenAI function calling, structured outputs
+| 3 | Log Retrieval	 | KQL construction, pandas for data handling
+| 4 | Threat Analysis | Prompt engineering, JSON schema enforcement
+| 5 | Output & Logging	 | Colorama formatting, JSONL append mode 
+| 6 | Guardrails & Polish | Validation, model selection, error handling, token estimation, rate limit awareness
 
-| Phase | Goal | Key Learnings | <br>
-1	|Setup & Auth|	|Azure DefaultAzureCredential & secure key management| <br>
-2	Query Planning	OpenAI function calling, structured outputs<br>
-3	Log Retrieval	KQL construction, pandas for data handling<br>
-4	Threat Analysis	Prompt engineering, JSON schema enforcement<br>
-5	Output & Logging	Colorama formatting, JSONL append mode<br>
-6	Guardrails & Polish	Validation, model selection, error handling, token estimation, rate limit awareness
 
 
 __**Demo Example**__
