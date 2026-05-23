@@ -24,6 +24,26 @@ _**How it Works**_
 -Color-coded display + Saved to _threats.jsonl
 
 
+_**Key Features**_
+
+-Natural language threat hunting "Check for brute force on Emp000555"
+-Intelligent table selection with OpeAI function calling
+-Real-time querying of Defender for Endpoint and Logs
+-Automated MITRE ATT&CK technique mapping 
+-Confidence scoring and acctionable reccomendations
+-Secure design: API keys never committed.
+
+_**Project Build Journey_**
+
+This system was built in phases to confirm that each component worked independently to ensure that Agentic SOC Analyst was able to compile complete threat hunts
+
+Phase	Goal	Key Learnings
+1	Setup & Auth	Azure DefaultAzureCredential, secure key management
+2	Query Planning	OpenAI function calling, structured outputs
+3	Log Retrieval	KQL construction, pandas for data handling
+4	Threat Analysis	Prompt engineering, JSON schema enforcement
+5	Output & Logging	Colorama formatting, JSONL append mode
+6	Guardrails & Polish	Validation, model selection, error handling, token estimation, rate limit awareness
 
 
 
