@@ -14,7 +14,7 @@ _**Why I built This Bot**_
 -Practice secure development (secrets management, input validation, guardrails)
 
 
-How it Works
+_**How it Works**_
 
 User Input (Natural Language)
        ↓
