@@ -45,7 +45,7 @@ This system was built in phases to confirm that each component worked independen
 
 | Phase | Goal | Key Learnings | 
 | ----- | ---- | ---- |
-| Setup & Auth | Azure DefaultAzureCredential & secure key management |
+|    1   | Setup & Auth | Azure DefaultAzureCredential & secure key management |
 | git diff | Show file differences that haven't been staged |
 | --- | --- |
 | git status | List all new or modified files |
