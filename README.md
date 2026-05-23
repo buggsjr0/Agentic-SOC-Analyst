@@ -4,7 +4,7 @@ An intelligent threat hunting assistant that combines natural language processin
 
 This project was built as a hands-on learning exercise: taking a working AI SOC analyst bot and constructing it to understand the integration of LLMs, Azure Log Analytics, function calling, and threat intelligence workflows.
 
-Why I built This Bot
+_**Why I built This Bot**_
 
 -Understand how LLMs interpret natural language hunting queries
 -Master OpenAI function calling for structured query planning
