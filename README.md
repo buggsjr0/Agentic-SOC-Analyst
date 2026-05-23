@@ -8,7 +8,7 @@ This project was built as a hands-on learning exercise: taking a working AI SOC 
 
 _**Why I built This Bot**_
 
--Understand how LLMs interpret natural language hunting queries
+-Understand how LLMs interpret natural language hunting queries <br>
 -Master OpenAI function calling for structured query planning
 -Learn secure integration with Azure Log Analytics using KQL
 -Implement MITRE ATT&CK mapping and IOC extraction
