@@ -43,7 +43,7 @@ _**Project Build Journey**_
 
 This system was built in phases to confirm that each component worked independently to ensure that Agentic SOC Analyst was able to compile complete threat hunts
 
-|Phase|	|Goal|	|Key Learnings| <br>
+| Phase | Goal | Key Learnings | <br>
 1	|Setup & Auth|	|Azure DefaultAzureCredential & secure key management| <br>
 2	Query Planning	OpenAI function calling, structured outputs<br>
 3	Log Retrieval	KQL construction, pandas for data handling<br>
