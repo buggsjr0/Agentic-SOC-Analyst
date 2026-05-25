@@ -1,6 +1,6 @@
 # Agentic SOC Analyst for Microsoft Defender & Azure
 
-An intelligent threat hunting assistant that combines natural language processing (OpenAI GPT) with real-time log analysis from Microsoft Defender for Endpoint and Azure AD — rebuilt from scratch to deepen understanding of AI-driven security operations.
+An intelligent threat hunting assistant that combines natural language processing (OpenAI GPT) with real-time log analysis from Microsoft Defender for Endpoint and Azure AD. Built from scratch to deepen understanding of AI-driven security operations.
 
 This project was built as a hands-on learning exercise: taking a working AI SOC analyst bot and constructing it to understand the integration of LLMs, Azure Log Analytics, function calling, and threat intelligence workflows.
 
@@ -58,5 +58,11 @@ __**Demo Example**__
 
 ***User prompts AI agent:***
 > "Any supicous login attempts againt admin accounts in the ladt 72hrs?
+
+Bot responds with
+- Detected brute-force attempts from multiple IPs
+- Mapped to MITRE
+- IOCs extracted (IP addresses, usernames)
+- Recommendations based on user input: block IPs, implement lockout policies
 
 
