@@ -19,23 +19,23 @@ _**📌 Why I built This Bot**_
 
 _**📌 How it Works**_
 
--User Input (Natural Language) <br>
--GPT decides: Table + Fields + Filters (via Function Calling) <br>
--Query Azure Log Analytics Workspace (Real MDE & Azure AD logs) <br>
--Returned logs → GPT Threat Analysis Engine <br>
--Structured Findings: Title, MITRE Mapping, Confidence, IOCs, Recommendations <br>
--Color-coded display + Saved to _threats.jsonl <br>
+- User Input (Natural Language) <br>
+- GPT decides: Table + Fields + Filters (via Function Calling) <br>
+- Query Azure Log Analytics Workspace (Real MDE & Azure AD logs) <br>
+- Returned logs → GPT Threat Analysis Engine <br>
+- Structured Findings: Title, MITRE Mapping, Confidence, IOCs, Recommendations <br>
+- Color-coded display + Saved to _threats.jsonl <br>
 
 ***
 
 _**📌 Key Features**_
 
--Natural language threat hunting "Check for brute force on Emp000555" <br>
--Intelligent table selection with OpeAI function calling <br>
--Real-time querying of Defender for Endpoint and Logs <br>
--Automated MITRE ATT&CK technique mapping <br>
--Confidence scoring and acctionable reccomendations <br>
--Secure design: API keys never committed. <br>
+- Natural language threat hunting "Check for brute force on Emp000555" <br>
+- Intelligent table selection with OpeAI function calling <br>
+- Real-time querying of Defender for Endpoint and Logs <br>
+- Automated MITRE ATT&CK technique mapping <br>
+- Confidence scoring and acctionable reccomendations <br>
+- Secure design: API keys never committed. <br>
 
 ***
 
