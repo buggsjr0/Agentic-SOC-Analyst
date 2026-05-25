@@ -6,7 +6,7 @@ This project was built as a hands-on learning exercise: taking a working AI SOC 
 
 ***
 
-_** 📌 Why I built This Bot**_
+_**📌 Why I built This Bot**_
 
 -Understand how LLMs interpret natural language hunting queries <br>
 -Master OpenAI function calling for structured query planning <br>
