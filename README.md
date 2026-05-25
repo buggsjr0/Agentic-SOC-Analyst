@@ -6,7 +6,7 @@ This project was built as a hands-on learning exercise: taking a working AI SOC 
 
 ***
 
-_**Why I built This Bot**_
+_** 📌 Why I built This Bot**_
 
 -Understand how LLMs interpret natural language hunting queries <br>
 -Master OpenAI function calling for structured query planning <br>
@@ -17,7 +17,7 @@ _**Why I built This Bot**_
 
 ***
 
-_**How it Works**_
+_**📌 How it Works**_
 
 -User Input (Natural Language) <br>
 -GPT decides: Table + Fields + Filters (via Function Calling) <br>
@@ -28,7 +28,7 @@ _**How it Works**_
 
 ***
 
-_**Key Features**_
+_**📌 Key Features**_
 
 -Natural language threat hunting "Check for brute force on Emp000555" <br>
 -Intelligent table selection with OpeAI function calling <br>
