@@ -45,7 +45,7 @@ This system was built in phases to confirm that each component worked independen
 
 | Phase | Goal | Key Learnings | 
 | ----- | ----- | ----- |
-|  1  | Setup & Auth | Azure DefaultAzureCredential & secure key management |
+| 1 | Setup & Auth | Azure DefaultAzureCredential & secure key management |
 | 2 | Query Planning | OpenAI function calling, structured outputs
 | 3 | Log Retrieval	 | KQL construction, pandas for data handling
 | 4 | Threat Analysis | Prompt engineering, JSON schema enforcement
@@ -56,6 +56,7 @@ This system was built in phases to confirm that each component worked independen
 
 __**Demo Example**__
 
-
+***User prompts AI agent:***
+> "Any supicous login attempts againt admin accounts in the ladt 72hrs?
 
 
