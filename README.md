@@ -57,7 +57,7 @@ This system was built in phases to confirm that each component worked independen
 __**Demo Example**__
 
 ***User prompts AI agent:***
-> "Any supicous login attempts againt admin accounts in the ladt 72hrs?
+> "Any supicous login attempts againt admin accounts in the ladt 48hrs?
 
 Bot responds with
 - Detected brute-force attempts from multiple IPs
