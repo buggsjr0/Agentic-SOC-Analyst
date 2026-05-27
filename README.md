@@ -63,6 +63,6 @@ Bot responds with
 - Detected brute-force attempts from multiple IPs
 - Mapped to MITRE
 - IOCs extracted (IP addresses, usernames)
-- Recommendations based on user input: block IPs, implement lockout policies. 
+- Recommendations based on user input: block IPs, implement lockout policies
 
 
