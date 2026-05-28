@@ -35,7 +35,7 @@ _**📌 Key Features**_
 - Real-time querying of Defender for Endpoint and Logs <br>
 - Automated MITRE ATT&CK technique mapping <br>
 - Confidence scoring and acctionable reccomendations <br>
-- Secure design: API keys never committed. <br>
+- Secure design: API keys never committed <br>
 
 ***
 
