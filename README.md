@@ -19,7 +19,7 @@ _**📌 Why I built This Bot**_
 
 _**📌 How it Works**_
 
-- User Input (Natural Language). <br>
+- User Input (Natural Language) <br>
 - GPT decides: Table + Fields + Filters (via Function Calling). <br>
 - Query Azure Log Analytics Workspace (Real MDE & Azure AD logs). <br>
 - Returned logs → GPT Threat Analysis Engine <br>
