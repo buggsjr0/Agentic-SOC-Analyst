@@ -2,7 +2,7 @@
 
 An intelligent threat hunting assistant that combines natural language processing (OpenAI GPT) with real-time log analysis from Microsoft Defender for Endpoint and Azure AD. Built from scratch to deepen understanding of AI-driven security operations.
 
-This project was built as a hands-on learning exercise: taking a working AI SOC analyst bot and constructing it to understand the integration of LLMs, Azure Log Analytics, function calling, and threat intelligence workflows.
+This project was built as a hands-on learning exercise: taking a working AI SOC analyst bot and constructing it to understand the integration of LLMs, Azure Log Analytics, function calling, and threat intelligence workflows. 
 
 ***
 
@@ -35,7 +35,7 @@ _**📌 Key Features**_
 - Real-time querying of Defender for Endpoint and Logs <br>
 - Automated MITRE ATT&CK technique mapping <br>
 - Confidence scoring and acctionable reccomendations <br>
-- Secure design: API keys never committed <br>
+- Secure design: API keys never committed. <br>
 
 ***
 
