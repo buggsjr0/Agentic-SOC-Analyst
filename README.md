@@ -13,7 +13,7 @@ _**📌 Why I built This Bot**_
 - Learn secure integration with Azure Log Analytics using KQL <br>
 - Implement MITRE ATT&CK mapping and IOC extraction <br>
 - Build professional-grade prompt engineering for threat detection <br>
-- Practice secure development (secrets management, input validation, guardrails<br>
+- Practice secure development (secrets management, input validation guardrails<br>
 
 ***
 
