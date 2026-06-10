@@ -1,8 +1,6 @@
 # AI Powered SOC Analyst for Microsoft Defender & Azure
 
-An intelligent threat hunting assistant that combines natural language processing (OpenAI GPT) with real-time log analysis from Microsoft Defender for Endpoint and Azure AD. Built from scratch to deepen understanding of AI-driven security operations.
-
-This project was built as a hands-on learning exercise: taking a working AI SOC analyst bot and constructing it to understand the integration of LLMs, Azure Log Analytics, function calling, and threat intelligence workflows. 
+An intelligent threat hunting assistant that combines natural language processing (OpenAI GPT) with real-time log analysis from Microsoft Defender for Endpoint and Azure AD. This project was built as a hands-on learning exercise: to reconstruct attacker activity, determine scope of breach and guide analyst on next steps. Doing this project allowed me to further understand the integration of LLMs, Azure Log Analytics, function calling, and threat intelligence workflows. 
 
 ***
 
