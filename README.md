@@ -22,7 +22,6 @@ _**📌 How it Works**_
 - Query Azure Log Analytics Workspace (Real MDE & Azure AD logs) <br>
 - Returned logs → GPT Threat Analysis Engine <br>
 - Structured Findings: Title, MITRE Mapping, Confidence, IOCs, Recommendations <br>
-- <br>
 
 ***
 
