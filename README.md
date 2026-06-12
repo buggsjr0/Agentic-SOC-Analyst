@@ -1,17 +1,17 @@
 # AI Powered SOC Analyst for Microsoft Defender & Azure
 
-An intelligent threat hunting assistant that combines natural language processing (OpenAI GPT) with real-time log analysis from Microsoft Defender for Endpoint and Azure AD. This project was built as a hands-on learning exercise: to reconstruct attacker activity, determine scope of breach and guide analyst on next steps. Doing this project allowed me to further understand the integration of LLMs, Azure Log Analytics, function calling, and threat intelligence workflows
+An intelligent threat hunting assistant that combines natural language processing (OpenAI GPT) with real-time log analysis from Microsoft Defender for Endpoint and Azure logs. This project was built as a hands-on learning exercise: to reconstruct attacker activity, determine scope of breach and guide analyst on next steps. Doing this project allowed me to further understand the integration of LLMs, Azure Log Analytics, function calling, and threat intelligence workflows
 
 ***
 
-_**📌 Why I built This Bot**_
+_**🚨 Why I built This Bot**_
 
 - Understand how LLMs interpret natural language hunting queries <br>
-- Master OpenAI function calling for structured query planning <br>
+- Implement OpenAI function calling for structured query planning <br>
 - Learn secure integration with Azure Log Analytics using KQL <br>
 - Implement MITRE ATT&CK mapping and IOC extraction. <br>
 - Build professional-grade prompt engineering for threat detection <br>
-- Practice secure development (secrets management, input validation guardrails<br>
+- Practice secure development (secrets management, input validation guardrails)<br>
 
 ***
 
@@ -22,13 +22,14 @@ _**📌 How it Works**_
 - Query Azure Log Analytics Workspace (Real MDE & Azure AD logs) <br>
 - Returned logs → GPT Threat Analysis Engine <br>
 - Structured Findings: Title, MITRE Mapping, Confidence, IOCs, Recommendations <br>
-- Color-coded display + Saved to _threats.jsonl <br>
+- <br>
 
 ***
 
-_**📌 Key Features**_
+_**🧠 Key Features**_
 
 - Natural language threat hunting "Check for brute force on Emp000555" <br>
+- Multi Source Log Analysis
 - Intelligent table selection with OpeAI function calling <br>
 - Real-time querying of Defender for Endpoint and Logs <br>
 - Automated MITRE ATT&CK technique mapping <br>
