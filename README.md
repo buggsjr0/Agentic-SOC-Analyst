@@ -29,7 +29,7 @@ _**🧠 Key Features**_
 
 - Natural language threat hunting "Check for brute force on Emp000555" <br>
 - Multi Source Log Analysis
-- Intelligent table selection with OpeAI function calling <br>
+- Intelligent table selection with OpenAI function calling <br>
 - Real-time querying of Defender for Endpoint and Logs <br>
 - Automated MITRE ATT&CK technique mapping <br>
 - Confidence scoring and acctionable reccomendations <br>
